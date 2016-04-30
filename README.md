@@ -1,12 +1,5 @@
-# app
+# Login usando Stack MEAN
+La arquitectura inicial fue basada en el ejemplo  [to-do-app](https://github.com/kerosine9/to-do-app) y usando  [yo angular generator](https://github.com/yeoman/generator-angular)
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+## Funcionamiento Inicial
+Mediante un formulario sencillo consume un servicio expuesto por express y mongo, el cual recive los parametros y los verifica con los registrados previamente en MongoDb
